@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">testble</string>
+    <string name="ble_not_support">BLE Not Support</string>
+    <string name="title_activity_control">ControlActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

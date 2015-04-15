@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/borderframe" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#C0C0C0"
+        android:text="Large Text"
+        android:id="@+id/devname"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/space"
+        android:layout_marginTop="5dp" />
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="60dp"
+        android:id="@+id/space" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#505050"
+        android:text="Small Text"
+        android:id="@+id/devaddr"
+        android:layout_below="@+id/devname"
+        android:layout_toEndOf="@+id/space" />
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="60dp"
+        android:id="@+id/space2"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/devaddr" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="CON"
+        android:id="@+id/btnbeep"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>
